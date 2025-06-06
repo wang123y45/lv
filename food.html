@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="吉林省四平市十家堡龙湾村特色农家菜，传统东北美食，地道农家风味。提供农家大锅炖、山野菜、烤地瓜等特色美食，让您体验最原汁原味的东北农家美食。">
+    <meta name="keywords" content="龙湾村美食,东北农家菜,四平特色菜,农家大锅炖,山野菜,特色农家菜,东北菜,农家乐美食">
+    <title>四平龙湾村特色农家菜 | 东北美食 | 农家特色菜</title>
+    <style>
+        body {
+            font-family: 'Microsoft YaHei', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f5f5f5;
+            color: #333;
+        }
+        .header {
+            background: linear-gradient(rgba(139, 87, 42, 0.9), rgba(139, 87, 42, 0.9)), url('rwjrmutuns3.jpg');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 100px 20px;
+            text-align: center;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .food-card {
+            background: white;
+            border-radius: 8px;
+            overflow: hidden;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            display: flex;
+            flex-direction: column;
+        }
+        .food-card img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+        }
+        .food-info {
+            padding: 20px;
+        }
+        .food-title {
+            color: #8b572a;
+            margin: 0 0 10px 0;
+            font-size: 1.5em;
+        }
+        .food-price {
+            color: #e65100;
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+        .food-description {
+            margin: 10px 0;
+            line-height: 1.6;
+        }
+        .food-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 10px;
+        }
+        .tag {
+            background: #fff3e0;
+            color: #8b572a;
+            padding: 5px 10px;
+            border-radius: 15px;
+            font-size: 0.9em;
+        }
+        .food-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+            margin-top: 30px;
+        }
+        .section-title {
+            color: #8b572a;
+            text-align: center;
+            margin: 40px 0 20px;
+            font-size: 2em;
+        }
+        .feature-box {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        .feature-list {
+            list-style: none;
+            padding: 0;
+        }
+        .feature-list li {
+            margin: 10px 0;
+            padding-left: 25px;
+            position: relative;
+        }
+        .feature-list li:before {
+            content: "✔";
+            color: #8b572a;
+            position: absolute;
+            left: 0;
+        }
+        .cta-box {
+            background: #8b572a;
+            color: white;
+            text-align: center;
+            padding: 40px 20px;
+            border-radius: 8px;
+            margin-top: 40px;
+        }
+        .cta-button {
+            display: inline-block;
+            background: #e65100;
+            color: white;
+            text-decoration: none;
+            padding: 15px 30px;
+            border-radius: 25px;
+            margin-top: 20px;
+            transition: background-color 0.3s;
+        }
+        .cta-button:hover {
+            background: #bf360c;
+        }
+        @media (max-width: 768px) {
+            .header {
+                padding: 50px 20px;
+            }
+            .food-grid {
+                grid-template-columns: 1fr;
+            }
+            .container {
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>龙湾村特色农家菜</h1>
+        <p>品味地道东北风味 · 感受农家真实美味</p>
+    </div>
+
+    <div class="container">
+        <div class="feature-box">
+            <h2>特色亮点</h2>
+            <ul class="feature-list">
+                <li>现采现做，保证新鲜</li>
+                <li>传统农家烹饪工艺</li>
+                <li>无添加剂，绿色健康</li>
+                <li>可提前预订特色菜品</li>
+            </ul>
+        </div>
+
+        <h2 class="section-title">当季推荐美食</h2>
+        <div class="food-grid">
+            <div class="food-card">
+                <img src="rwjrmutuns3.jpg" alt="农家大锅炖">
+                <div class="food-info">
+                    <h3 class="food-title">农家大锅炖</h3>
+                    <p class="food-price">¥168/锅（4-6人份）</p>
+                    <p class="food-description">选用新鲜食材，传统柴火慢炖，口感鲜美，营养丰富。配料包括：土鸡、玉米、土豆、胡萝卜等时令蔬菜。</p>
+                    <div class="food-tags">
+                        <span class="tag">招牌菜</span>
+                        <span class="tag">柴火慢炖</span>
+                        <span class="tag">营养美味</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="food-card">
+                <img src="sst.jpg" alt="野生山菜">
+                <div class="food-info">
+                    <h3 class="food-title">当季山野菜</h3>
+                    <p class="food-price">¥38/份</p>
+                    <p class="food-description">精选当季野生山菜，农家特制酱料，原汁原味，清香可口。春夏时节推荐：蕨菜、榆钱、荠菜等。</p>
+                    <div class="food-tags">
+                        <span class="tag">时令</span>
+                        <span class="tag">养生</span>
+                        <span class="tag">绿色食材</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="food-card">
+                <img src="t4ctwdasryb.jpg" alt="烤地瓜">
+                <div class="food-info">
+                    <h3 class="food-title">传统烤地瓜</h3>
+                    <p class="food-price">¥8/个</p>
+                    <p class="food-description">选用本地红薯，采用传统土灶烤制，外酥里糯，香甜可口，是游玩休息时的最佳零食选择。</p>
+                    <div class="food-tags">
+                        <span class="tag">传统小吃</span>
+                        <span class="tag">现烤现卖</span>
+                        <span class="tag">童年味道</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="food-card">
+                <img src="lkyoww4wwpe.jpg" alt="东北农家饺子">
+                <div class="food-info">
+                    <h3 class="food-title">农家手工饺子</h3>
+                    <p class="food-price">¥58/斤</p>
+                    <p class="food-description">现包现煮的东北特色饺子，皮薄馅大，搭配特制蘸料，让您品尝最地道的东北味道。</p>
+                    <div class="food-tags">
+                        <span class="tag">手工制作</span>
+                        <span class="tag">现包现煮</span>
+                        <span class="tag">东北特色</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="feature-box">
+            <h2>用餐贴士</h2>
+            <ul class="feature-list">
+                <li>建议提前1天预订特色菜品</li>
+                <li>可根据人数定制套餐</li>
+                <li>支持自带食材代加工</li>
+                <li>提供场地可举办家庭聚会</li>
+            </ul>
+        </div>
+
+        <div class="cta-box">
+            <h2>想要品尝地道农家菜？</h2>
+            <p>欢迎提前预订，我们将为您准备最新鲜的食材！</p>
+            <p>联系电话/微信：18644813241</p>
+            <a href="index.html" class="cta-button">立即预订</a>
+        </div>
+    </div>
+</body>
+</html>

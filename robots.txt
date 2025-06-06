@@ -1,0 +1,44 @@
+User-agent: *
+Allow: /
+Sitemap: https://example.com/lvxing/sitemap.xml
+
+# 允许主流搜索引擎访问
+User-agent: Baiduspider
+Allow: /
+Priority: 1.0
+Crawl-delay: 1
+
+User-agent: Googlebot
+Allow: /
+Priority: 1.0
+Crawl-delay: 1
+
+User-agent: Sogou spider
+Allow: /
+Priority: 0.8
+Crawl-delay: 2
+
+User-agent: 360Spider
+Allow: /
+Priority: 0.8
+Crawl-delay: 2
+
+User-agent: bingbot
+Allow: /
+Priority: 0.8
+Crawl-delay: 2
+
+# 优化抓取频率和重要内容优先级
+Allow: /index.html
+Allow: /guihua.html
+Allow: /*.jpg
+Allow: /*.mp4
+
+# 不允许访问管理后台
+Disallow: /admin.php
+Disallow: /submit.php
+Disallow: /bookings.json
+
+# 指定重要目录
+Allow: /images/
+Allow: /videos/

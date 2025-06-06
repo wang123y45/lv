@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://example.com/lvxing/</loc>
+        <lastmod>2025-06-02</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <!-- 新增专题页面 -->
+    <url>
+        <loc>https://example.com/lvxing/gonglue.html</loc>
+        <lastmod>2025-06-02</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://example.com/lvxing/food.html</loc>
+        <lastmod>2025-06-02</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://example.com/lvxing/scenery.html</loc>
+        <lastmod>2025-06-02</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    
+    <!-- 景点介绍页面锚点 -->
+    <url>
+        <loc>https://example.com/lvxing/#scenery</loc>
+        <lastmod>2025-06-02</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://example.com/lvxing/#scenery2</loc>
+        <lastmod>2025-06-02</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <!-- 活动体验页面锚点 -->
+    <url>
+        <loc>https://example.com/lvxing/#activities</loc>
+        <lastmod>2025-06-02</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <!-- 美食体验页面锚点 -->
+    <url>
+        <loc>https://example.com/lvxing/#food</loc>
+        <lastmod>2025-06-02</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <!-- 预订页面锚点 -->
+    <url>
+        <loc>https://example.com/lvxing/#booking</loc>
+        <lastmod>2025-06-02</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.9</priority>
+    </url>
+    
+    <!-- 图片资源 -->
+    <url>
+        <loc>https://example.com/lvxing/dxp1ofqnuxp.jpg</loc>
+        <lastmod>2025-06-02</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://example.com/lvxing/sst.jpg</loc>
+        <lastmod>2025-06-02</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    
+    <!-- 视频资源 -->
+    <url>
+        <loc>https://example.com/lvxing/1.mp4</loc>
+        <lastmod>2025-06-02</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+</urlset>
